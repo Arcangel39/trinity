@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+  background: linear-gradient(to bottom, yellow 50%, black 50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(14, 13, 13);
+}
+
+#countdown-container {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+   /* Make the countdown boxes horizontal */
+}
+
+.time-box {
+  margin: 0 5px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: navy;
+  color: white;
+  font-size: 1.5em;
+  display: flex; /* Make the text inside centered vertically */
+  justify-content: center; /* Make the text inside centered horizontally */
+  align-items: center; /* Make the text inside centered vertically */
+}
+
+#countdown-circle {
+  position: relative;
+  display: inline-block;
+  border-radius: 0%;
+  padding: 20px;
+  background-color: #ffcc00;
+}
+.image{
+  width: 300vh;
+  height:100vh;
+  padding-left: 30%;
+}
+
+#countdown-circle .bottom {
+  background-color: #333;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.time-box {
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 80px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.label {
+  color: #f50d0d;
+  font-size: 1em;
+}
+
